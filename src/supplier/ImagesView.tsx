@@ -7,7 +7,7 @@ export default class ImagesView extends React.Component<{images: string[]}, {}> 
     })
     return (
       <div className='Images'>
-        <h4>IMAGES</h4>
+        <h5 className='subheading'>IMAGES:</h5>
         {imageDisplay}
       </div>
     )

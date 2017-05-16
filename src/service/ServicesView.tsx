@@ -1,17 +1,17 @@
 import * as React from 'react'
 
-import ServiceDetails from './ServiceDetailsView'
+import ServiceDetailsView from './ServiceDetailsView'
 
 import { Service } from '../interfaces'
 
-export default class ServicesList extends React.Component<{services: Service[]}, {}> {
+export default class ServicesView extends React.Component<{services: Service[]}, {}> {
   render() {
     const services = this.props.services.map(function (service, index) {
-      return <ServiceDetails key={index} service={service} />
+      return <ServiceDetailsView key={index} service={service} />
     })
     return (
       <div className='ServicesList'>
-        <h4>SERVICES</h4>
+        <h5 className='subheading'>SERVICES:</h5>
         {services}
       </div>
     )
