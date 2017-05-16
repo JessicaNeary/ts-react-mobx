@@ -2,12 +2,10 @@ import * as React from 'react';
 import { render } from 'react-dom';
 import { HashRouter as Router } from 'react-router-dom';
 
-import App from './components/App';
-
-import { store } from './createApi'
+import App from './App';
 
 render((
   <Router>
-    <App store={store} />
+    <App />
   </Router>
 ), document.getElementById('app'));

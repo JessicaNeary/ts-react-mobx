@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export default class Images extends React.Component<{images: string[]}, {}> {
+export default class ImagesView extends React.Component<{images: string[]}, {}> {
   render() {
     const imageDisplay = this.props.images.map(function (image, index) {
       return <img key={index} src={image} />

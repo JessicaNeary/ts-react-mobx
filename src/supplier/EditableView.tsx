@@ -3,7 +3,7 @@ import { Item } from '../interfaces'
 import { observer } from 'mobx-react'
 
 @observer
-export default class EditableDiv extends React.Component<{text: Item}, {}> {
+export default class EditableView extends React.Component<{text: Item}, {}> {
   render() {
     const text = this.props.text
     function edit () {

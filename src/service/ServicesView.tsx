@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import ServiceDetails from './ServiceDetails'
+import ServiceDetails from './ServiceDetailsView'
 
 import { Service } from '../interfaces'
 
