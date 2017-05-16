@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",
-    "test": "jest"
+    "test": "jest",
+    "build-css": "node-sass --watch scss/styles.scss scss/styles.css"
   },
   "keywords": [],
   "author": "",
@@ -53,6 +54,7 @@
     "webpack-dev-server": "^2.4.5"
   },
   "devDependencies": {
-    "mobx-react-devtools": "^4.2.11"
+    "mobx-react-devtools": "^4.2.11",
+    "node-sass": "^4.5.2"
   }
 }

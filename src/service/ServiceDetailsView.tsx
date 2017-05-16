@@ -11,7 +11,7 @@ export default class ServiceDetailsView extends React.Component<{service: Servic
     return (
       <Row className='ServiceDetails'>
         <Col>
-          <img src='http://placehold.it/150x150' />
+          <img src='http://placehold.it/200x150' />
         </Col>
         <Col>
           <h5 className='name'>

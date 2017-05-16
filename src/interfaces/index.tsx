@@ -48,7 +48,7 @@ export class Supplier {
     this.website = new Item(data.website)
     this.description = new Item(data.description)
     this.images = [
-      'http://placehold.it/150x150', 'http://placehold.it/150x150', 'http://placehold.it/150x150'
+      'http://placehold.it/200x150', 'http://placehold.it/200x150', 'http://placehold.it/200x150'
     ]
     this.services = []
     for(let service of data.services) {
